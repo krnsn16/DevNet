@@ -11,19 +11,3 @@
     }
 }
 
-### JSON.parse(myjson)
-{name: 'Karan', age: 33, isCool: true, license: null, array: Array(2), …}age: 33array: (2) ['arrayi1', 'arrayi2']0: "arrayi1"1: "arrayi2"length: 2[[Prototype]]: Array(0)isCool: truelicense: nullname: "Karan"nest: age: "Nestedage30"name: "Nest1"[[Prototype]]: Object[[Prototype]]: Object
-parsed = JSON.parse(myjson)
-{name: 'Karan', age: 33, isCool: true, license: null, array: Array(2), …}age: 33array: (2) ['arrayi1', 'arrayi2']isCool: truelicense: nullname: "Karan"nest: {name: 'Nest1', age: 'Nestedage30'}[[Prototype]]: Object
-
-parsed.age
-33
-
-parsed.nest.age
-'Nestedage30'
-
-parsed.array[0]
-'arrayi1' '''' ##
-
-parsed.nest.array2[2].obj
-'array2obj'
